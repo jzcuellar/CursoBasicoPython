@@ -19,6 +19,8 @@ https://www.codewars.com/kata/57eae65a4321032ce000002d/python
 
 # print(fake_bin('45385593107843568'))
 
+# --------------------------- Otros ejercios
+
 # def paperwork(n, m):
 #     return 0 if n < 0 or m < 0 else n*m
 
@@ -37,12 +39,3 @@ https://www.codewars.com/kata/57eae65a4321032ce000002d/python
 # print(printer_error(s))
 
 
-def count_positives_sum_negatives(arr):
-    if arr == []:
-        return []
-    else:
-        return [len([x for x in arr if x>0]),sum([x for x in arr if x<0])]
-
-l=[]
-print(len([]))
-print(count_positives_sum_negatives(l))
