@@ -12,5 +12,6 @@ print("Tienes $" + dolares + " dolares")
 #4 str == convertir un numero a string
 # Para asignar una variable se pone nombre de variable = y el valor de la misma
 # Se utiliza # para hacer comentarios en Python
+
 """Este es un comentario multilínea.
 Podemos escribir tantas líneas queramos a modo de documentación. Tambie Es un String Multilinea en Pytho """

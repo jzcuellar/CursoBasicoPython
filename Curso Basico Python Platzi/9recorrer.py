@@ -5,7 +5,7 @@ def run():
 
     frase = input("Escribe una frase: ")
     for caracter in frase:
-        print(caracter.upper())
+        print(caracter.upper(), end=" ")
 
 
 if __name__ == "__main__":

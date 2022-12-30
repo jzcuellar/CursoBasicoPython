@@ -26,3 +26,25 @@ if __name__ == "__main__":
 #2 Un range produce un listado de numeros desde el parametro inicial hasta parametro final - 1 range(i,j) produce i,i+1,i+2...j-1
 #3 Colocamos range(1, numero + 1) ya que queremos ir desde el 1 hasta el numero que coloco el usuario
 #4 Si la variable que itera i es igual a 1 o al numero ingresado nos vamos a saltar la vuelta del ciclo
+
+# OTRA Forma Prueba Primalidad Usando Teorema de Wilson, y libreria Math
+
+from math import factorial
+
+def prueba_prim(num):
+    if factorial(num - 1) % num == -1 % num:
+        return True
+    else:
+        return False
+
+def run():
+    num = int(input('Escribe un numero: '))
+    if prueba_prim(num):
+        print('Es un numero primo')
+    elif num == 1:
+        print('No es un numero primo')
+    else:
+        print('No es un numero primo')
+
+if __name__ == '__main__':
+    run()

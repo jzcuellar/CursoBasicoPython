@@ -5,6 +5,7 @@ def conversor(tipo_pesos, valor_dolar,):
     dolares = round(dolares, 2)
     dolares = str(dolares)
     print("Tienes $" + dolares + " dolares")
+
 menu = """
 Bienvenido al conversor de monedas 💰
 
@@ -12,9 +13,7 @@ Bienvenido al conversor de monedas 💰
 2 - Pesos Argentinos
 3 - Pesos Mexicanos
 
-Elige una opcion: """
-
-#1 #2
+Elige una opcion: """ #1 #2
 
 opcion = int(input(menu)) #3
 
