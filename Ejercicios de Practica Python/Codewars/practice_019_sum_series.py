@@ -5,12 +5,10 @@ https://www.codewars.com/kata/555eded1ad94b00403000071/train/python
 """
 
 # My solution # 1 
-def series_sum(n):
-    num = 0
-    for i in range(n):
-        num = num + 1/(1+(i*3))
-    return f'{num:.2f}'
+# def series_sum(n):
+#     num = 0
+#     for i in range(n):
+#         num = num + 1/(1+(i*3))
+#     return f'{num:.2f}'
 
-print(series_sum(1))
-
-
+# print(series_sum(1))
