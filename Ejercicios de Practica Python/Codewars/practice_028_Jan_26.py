@@ -42,11 +42,11 @@ https://www.codewars.com/kata/554ca54ffa7d91b236000023/train/python
 #     return order
 
 # Smarter Answer
-def delete_nth(order,max_e):
-    ans = []
-    for i in order:
-        if ans.count(i) < max_e: ans.append(i)
-    return ans
+# def delete_nth(order,max_e):
+#     ans = []
+#     for i in order:
+#         if ans.count(i) < max_e: ans.append(i)
+#     return ans
 
-print(delete_nth([2, 6, 2, 18, 6, 18, 18, 6, 18, 18, 18, 18, 2, 2, 2, 2, 2, 2, 6, 18, 18, 6, 6, 6, 18, 6, 18, 2], 3))
+# print(delete_nth([2, 6, 2, 18, 6, 18, 18, 6, 18, 18, 18, 18, 2, 2, 2, 2, 2, 2, 6, 18, 18, 6, 6, 6, 18, 6, 18, 2], 3))
 

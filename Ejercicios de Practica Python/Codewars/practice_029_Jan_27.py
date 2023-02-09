@@ -21,5 +21,10 @@ Will you make it?
 https://www.codewars.com/kata/5861d28f124b35723e00005e/train/python
 """
 
-def zero_fuel(distance_to_pump, mpg, fuel_left):
-    return mpg*fuel_left >= distance_to_pump
+# My solution #1 Return a Boolean
+# def zero_fuel(distance_to_pump, mpg, fuel_left):
+#     return mpg*fuel_left >= distance_to_pump
+
+# My solution #2 Return a Boolean
+# def zero_fuel(distance_to_pump, mpg, fuel_left):
+#     return True if mpg*fuel_left >= distance_to_pump else False
